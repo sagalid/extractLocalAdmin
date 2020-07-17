@@ -16,7 +16,6 @@ int main(){
     return 0;
 }
 
-
 int cliente_socket(char * message){
     WSADATA wsa;
 	SOCKET s;
@@ -46,7 +45,7 @@ int cliente_socket(char * message){
 		puts("Error en envio");
 		return 1;
 	}
-	puts("Datos enviados a CSIRT. Gracias ;)");
+	puts("Datos enviados gracias ;)");
 
     return 0;
 }
@@ -72,10 +71,3 @@ int ejecuta(char comando [], FILE * fp){
     pclose(fp);
     return 0;
 }
-
-
-
-
-
-
-
